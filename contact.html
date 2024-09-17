@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Site Metas -->
+      <title>Contact</title>
+      <meta name="keywords" content="contact, form, coffee theme, whatsapp chat">
+      <meta name="description" content="Contact page with coffee theme, gradient colors, and WhatsApp integration">
+      <meta name="author" content="Your Name">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <!-- Custom CSS -->
+      <style>
+         body {
+            font-family: 'Arial', sans-serif;
+            color: #fff;
+            background: linear-gradient(to right, #4B3832, #854442, #CDB380);
+            margin: 0;
+            padding: 0;
+         }
+         .header_section {
+            background: transparent;
+            padding: 20px;
+         }
+         .header_section .navbar {
+            background: none;
+         }
+         .header_section .navbar-nav .nav-link {
+            color: #fff !important;
+            margin-right: 20px;
+            transition: color 0.3s ease;
+         }
+         .header_section .navbar-nav .nav-link:hover {
+            color: #CDB380 !important;
+         }
+         .contact_section {
+            text-align: center;
+            padding: 80px 0;
+            background-color: rgba(0, 0, 0, 0.3);
+         }
+         .contact_text {
+            font-size: 48px;
+            color: #CDB380;
+            font-weight: bold;
+         }
+         .contact_section_2 {
+            background-color: transparent;
+            padding: 40px 0;
+         }
+         .contact_card {
+   background-color: rgba(159, 86, 86, 0.1);
+   padding: 40px;
+   border-radius: 15px;
+   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(10px);
+   -webkit-backdrop-filter: blur(10px);
+   border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+         .email-bt, .massage-bt {
+            width: 100%;
+            padding: 15px;
+            margin-bottom: 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: rgba(0, 0, 0, 0.2);
+            color: #fff;
+         }
+         .email-bt:focus, .massage-bt:focus {
+            outline: none;
+            background-color: rgba(255, 255, 255, 0.3);
+         }
+         .send_btn {
+            text-align: center;
+            margin-top: 20px;
+         }
+         .main_bt a {
+            text-decoration: none;
+            padding: 10px 30px;
+            background-color: #CDB380;
+            color: #4B3832;
+            border-radius: 30px;
+            transition: background-color 0.9s ease;
+         }
+         .main_bt a:hover {
+            background-color: #f9f7f7;
+         }
+         .footer_section {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            padding: 40px 0;
+            text-align: center;
+         }
+         .footer_section ul {
+            list-style-type: none;
+            padding: 0;
+         }
+         .footer_section ul li {
+            display: inline-block;
+            margin: 0 10px;
+         }
+         .footer_section ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+         }
+         .footer_section ul li a:hover {
+            color: #CDB380;
+         }
+         .whatsapp_btn {
+            background-color: #25D366;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: background-color 0.9s ease;
+         }
+         .whatsapp_btn:hover {
+            background-color: #0ce7ff;
+         }
+         .copyright_section {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px 0;
+            color: #fff;
+            text-align: center;
+         }
+      </style>
+   </head>
+   <body>
+      <!-- Header Section -->
+      <div class="header_section">
+         <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light">
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                     <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+         </div>
+      </div>
+      <!-- Contact Section -->
+      <div class="contact_section">
+         <div class="container">
+            <h1 class="contact_text">Let's Have a Coffee Chat ^_^</h1>
+         </div>
+      </div>
+      <div class="contact_section_2">
+         <div class="container">
+            <div class="row justify-content-center">
+               <div class="col-md-8">
+                  <div class="contact_card">
+                     <form>
+                        <div class="form-group">
+                           <input type="text" class="email-bt" placeholder="Your Name" name="Name">
+                        </div>
+                        <div class="form-group">
+                           <input type="email" class="email-bt" placeholder="Your Email" name="Email">
+                        </div>
+                        <div class="form-group">
+                           <input type="tel" class="email-bt" placeholder="Your Phone Number" name="Phone">
+                        </div>
+                        <div class="form-group">
+                           <textarea class="massage-bt" placeholder="Your Message" rows="5" name="Message"></textarea>
+                        </div>
+                        <div class="send_btn">
+                           <div class="main_bt"><a href="#">SEND MESSAGE</a></div>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+            <div class="text-center mt-4">
+               <a href="https://wa.me/6282226739446" class="whatsapp_btn" target="_blank">Chat via WhatsApp</a>
+            </div>
+         </div>
+      </div>
+      <!-- Footer Section -->
+      <div class="footer_section">
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+         </ul>
+      </div>
+      <!-- Copyright Section -->
+      <div class="copyright_section">
+         <p>© 2024 All Rights Reserved.</p>
+      </div>
+      <!-- Javascript Files -->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/custom.js"></script>
+   </body>
+</html>
